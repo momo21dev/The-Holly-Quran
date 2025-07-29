@@ -1,7 +1,8 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import List from './components/List';
 import Surah from './components/surah';
-//import Surah from './components/surah';
+
+
 
 
 export default function App() {
