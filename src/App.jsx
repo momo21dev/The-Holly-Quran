@@ -5,8 +5,9 @@ import Surah from './components/surah';
 
 
 
+
 export default function App() {
-  
+
   return (
     <BrowserRouter>
       <Routes>
