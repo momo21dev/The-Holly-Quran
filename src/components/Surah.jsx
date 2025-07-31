@@ -23,7 +23,7 @@ export default function Surah() {
     return (
         <div className="min-h-screen bg-white text-green-900 px-4 py-10 flex flex-col items-center gap-8">
 
-            {/* أزرار Reading / Translation */}
+            
             <div className="flex gap-4">
                 <button
                     onClick={() => setTranslate(false)}
@@ -45,7 +45,7 @@ export default function Surah() {
                 </button>
             </div>
 
-            {/* أزرار حجم الخط */}
+            
             <div className="flex gap-4">
                 <button
                     onClick={increaseFont}
@@ -61,12 +61,12 @@ export default function Surah() {
                 </button>
             </div>
 
-            {/* اسم السورة */}
+            
             <h1 className="text-4xl font-extrabold text-[#b8860b] border-b-4 border-[#b8860b] pb-2 px-6 rounded-md shadow-sm">
                 {surah.surahName}
             </h1>
 
-            {/* محتوى السورة */}
+            
             <div className="max-w-2xl w-full space-y-6 text-center leading-loose">
                 {!translate &&
                     surah.arabic1?.map((ayah, index) => (
