@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import List from './components/List';
-import Surah from './components/Surah';
+import Surah from './components/surah';
 
 
 

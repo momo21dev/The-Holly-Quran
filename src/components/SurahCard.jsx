@@ -1,11 +1,11 @@
-export default function SurahCard({ item, index }) {
+export default function SurahCard({ item }) {
   return (
     <div className="border-2 border-green-800 rounded-xl p-4 text-center shadow-md bg-white 
                     transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:border-green-600
                     hover:border-4 relative flex flex-col items-center">
 
       <div className="absolute -top-4 -left-4 bg-green-800 text-white w-8 h-8 flex items-center justify-center rounded-full text-sm shadow-md">
-        {index}
+        {item.id}
       </div>
 
       <h1 className="font-bold text-lg text-green-900 mt-2">{item.surahName}</h1>
